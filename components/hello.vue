@@ -1,5 +1,5 @@
 <template>
-  <h1>Jekyll-Vue Template</h1>
+  <h1>Wow, really? This is it?</h1>
 </template>
 
 <script>
