@@ -73,7 +73,7 @@
 
     const app = Vue.createApp({
       components: {
-        'my-component': Vue.defineAsyncComponent( () => loadModule('./hello.vue', options) )
+        'my-component': Vue.defineAsyncComponent( () => loadModule('./components/hello.vue', options) )
       },
       template: '<my-component></my-component>'
     });
