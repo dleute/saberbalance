@@ -78,7 +78,9 @@
       template: '<main-app></main-app>'
     });
 
-    const vuetify = createVuetify();
+    const { createVuetify } = Vuetify
+
+    const vuetify = createVuetify()
 
     app.use(vuetify).mount('#app');
     </script>
