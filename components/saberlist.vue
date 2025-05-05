@@ -1,14 +1,9 @@
 <template>
     <v-container fluid>
-        <v-row>
-            <v-col>
-            <saber></saber>
+        <v-row v-for="n in 3" :key="n">
+            <v-col cols="auto">
+                <saber></saber>
             </v-col>
-        </v-row>
-        <v-row>
-            <v-col>
-            <saber></saber>
-        </v-col>
         </v-row>
     </v-container>
 </template>
