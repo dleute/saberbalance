@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/saberbalance/favicon-16x16.png">
     <link rel="manifest" href="/saberbalance/site.webmanifest">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vuetify@3.8.3/dist/vuetify.min.css">
     {% include head-custom.html %}
 {% seo %}
   </head>
@@ -43,6 +44,7 @@
       </section>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@3.5.13/dist/vue.global.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@3.8.3/dist/vuetify.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue3-sfc-loader@0.9.5/dist/vue3-sfc-loader.min.js"></script>
 
     <script>
@@ -76,7 +78,9 @@
       template: '<main-app></main-app>'
     });
 
-    app.mount('#app');
+    const vuetify = createVuetify();
+
+    app.use(vuetify).mount('#app');
     </script>
   </body>
 </html>
