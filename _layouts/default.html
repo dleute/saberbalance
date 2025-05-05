@@ -38,9 +38,7 @@
         {{ content }}
 
         {% raw %}
-        <div id="app">
-        {{message}}
-        </div>
+        <div id="app"></div>
         {% endraw %}
       </section>
     </div>
@@ -73,9 +71,9 @@
 
     const app = Vue.createApp({
       components: {
-        'my-component': Vue.defineAsyncComponent( () => loadModule('./components/hello.vue', options) )
+        'main-app': Vue.defineAsyncComponent( () => loadModule('./components/main.vue', options) )
       },
-      template: '<my-component></my-component>'
+      template: '<main-app></main-app>'
     });
 
     app.mount('#app');
