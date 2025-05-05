@@ -1,6 +1,12 @@
 <template>
-    <saber></saber>
-    <saber></saber>
+    <v-container>
+        <v-row>
+            <saber></saber>
+        </v-row>
+        <v-row>
+            <saber></saber>
+        </v-row>
+    </v-container>
 </template>
 
 <script setup>
