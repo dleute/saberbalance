@@ -5,9 +5,6 @@
 
 <script setup>
 import Saber from './saber.vue'
-export default {
-    name: 'SaberList',
-}
 </script>
 
 <style scoped>

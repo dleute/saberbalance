@@ -7,10 +7,6 @@
 <script setup>
 import HelloWorld from './hello.vue'
 import SaberList from './saberlist.vue'
-
-export default {
-    name: 'MainApp',
-}
 </script>
   
 <style scoped>

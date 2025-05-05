@@ -2,10 +2,8 @@
     <ul>saber 1</ul>
 </template>
 
-<script>
-export default {
-    name: 'Saber',
-}
+<script setup>
+
 </script>
 
 <style scoped>
