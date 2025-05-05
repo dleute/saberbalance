@@ -5,10 +5,6 @@
   
 <script setup>
 import HelloWorld from './hello.vue'
-
-export default {
-    name: 'MainApp',
-}
 </script>
   
 <style scoped>
