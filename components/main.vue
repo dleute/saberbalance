@@ -8,7 +8,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-main class="d-flex align-center justify-center" height="300">
+    <v-main class="d-flex align-center justify-center">
       <v-container>
         <v-row>
             <v-col cols="12"><slot></slot></v-col>
@@ -26,7 +26,7 @@
 </template>
   
 <script setup>
-import HelloWorld from './hello.vue'
+// import HelloWorld from './hello.vue'
 import SaberList from './saberlist.vue'
 </script>
   
