@@ -10,15 +10,20 @@
 
     <v-main class="d-flex align-center justify-center" height="300">
       <v-container>
+        <v-row>
+            <v-col cols="12"><slot></slot></v-col>
+            <v-col cols="12">
         <v-sheet
           border="dashed md"
           color="surface-light"
           rounded="lg"
           width="100%"
         >
-        <slot></slot>
+        
         <saber-list></saber-list>
         </v-sheet>
+        </v-col>
+        </v-row>
       </v-container>
     </v-main>
   </v-layout>
