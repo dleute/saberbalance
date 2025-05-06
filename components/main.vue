@@ -12,16 +12,11 @@
       <v-container>
         <v-row>
             <v-col cols="12"><slot></slot></v-col>
+            </v-row>
+            <v-row>
             <v-col cols="12">
-        <v-sheet
-          border="dashed md"
-          color="surface-light"
-          rounded="lg"
-          width="100%"
-        >
         
         <saber-list></saber-list>
-        </v-sheet>
         </v-col>
         </v-row>
       </v-container>
