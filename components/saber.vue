@@ -1,5 +1,5 @@
 <template>
-  <v-card title="Saber" elevation="10" hover>
+  <v-card title="Saber" elevation="10" hover variant="elevated" color="primary">
     <v-card-text>
       <v-chip-group>
         <v-chip>Chip 1</v-chip>
