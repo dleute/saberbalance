@@ -1,7 +1,15 @@
 <template>
-  <v-card title="Saber" text="uh dont need text" elevation="8" hover>
+  <v-card title="Saber" elevation="10" hover>
+    <v-card-text>
+      <v-chip-group>
+        <v-chip>Chip 1</v-chip>
+        <v-chip>Chip 2</v-chip>
+        <v-chip>Chip 3</v-chip>
+      </v-chip-group>
+    </v-card-text>
     <v-card-actions>
-      <v-btn>Click me</v-btn>
+      <v-spacer></v-spacer>
+      <v-btn rounded="lg" variant="elevated">Edit</v-btn>
     </v-card-actions>
   </v-card>
 </template>
