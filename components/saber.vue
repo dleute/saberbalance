@@ -6,6 +6,7 @@
         <v-chip>Chip 2</v-chip>
         <v-chip>Chip 3</v-chip>
       </v-chip-group>
+      <saber-svg></saber-svg>
     </v-card-text>
     <v-card-actions>
       <v-spacer></v-spacer>
@@ -15,7 +16,7 @@
 </template>
 
 <script setup>
-
+import SaberSvg from './svg.vue'
 </script>
 
 <style scoped>
