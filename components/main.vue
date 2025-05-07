@@ -2,13 +2,13 @@
   <v-parallax src="/saberbalance/assets/img/saber-bg.png">
   <v-layout class="rounded rounded-md border">
   
-    <v-app-bar title="Application bar"></v-app-bar>
+    <!-- <v-app-bar title="Lightsaber Balance"></v-app-bar> -->
 
-    <v-navigation-drawer>
+    <!-- <v-navigation-drawer>
       <v-list nav>
         <v-list-item title="Navigation drawer" link></v-list-item>
       </v-list>
-    </v-navigation-drawer>
+    </v-navigation-drawer> -->
 
     <v-main class="d-flex align-center justify-center">
       <v-container>
