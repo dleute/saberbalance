@@ -1,5 +1,7 @@
 <template>
+  <v-parallax src="/saberbalance/assets/img/saber-bg.png">
   <v-layout class="rounded rounded-md border">
+  
     <v-app-bar title="Application bar"></v-app-bar>
 
     <v-navigation-drawer>
@@ -22,7 +24,7 @@
       </v-container>
     </v-main>
   </v-layout>
-    
+</v-parallax>
 </template>
   
 <script setup>
